@@ -1,4 +1,4 @@
-package com.replya.whatsapp.component;
+package com.replya.component;
 
 import tools.jackson.databind.JsonNode;
 

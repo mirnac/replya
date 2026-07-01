@@ -1,4 +1,4 @@
-package com.replya.whatsapp;
+package com.replya;
 
 /**
  * Created by Mirna Cantero

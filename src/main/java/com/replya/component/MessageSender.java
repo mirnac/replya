@@ -1,4 +1,4 @@
-package com.replya.whatsapp.component;
+package com.replya.component;
 
 import com.replya.config.WhatsAppProperties;
 import org.slf4j.Logger;

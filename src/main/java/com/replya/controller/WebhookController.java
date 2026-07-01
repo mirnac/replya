@@ -1,7 +1,7 @@
-package com.replya.whatsapp.controller;
+package com.replya.controller;
 
 import com.replya.config.WhatsAppProperties;
-import com.replya.whatsapp.component.MessageHandler;
+import com.replya.component.MessageHandler;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpStatus;
