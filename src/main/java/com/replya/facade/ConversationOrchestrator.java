@@ -50,7 +50,7 @@ public class ConversationOrchestrator {
         if (tenant == null) { log.warn("No tenant found for phone_number_id {}", phoneNumberId); return; }
         if (!"active".equals(tenant.getStatus())) { log.info("Tenant {} en pausa", tenant.getId()); return; }
 
-        TenantConfig cfg = configRepo.findById(tenant.getId())
+        TenantConfig cfg = configRepo.findByTenantId(tenant.getId())
                 .orElseThrow(() -> new IllegalStateException("Tenant sin config: " + tenant.getId()));
 
         // historial previo + mensaje actual (en memoria, todavía sin persistir)
